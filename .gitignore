@@ -1,0 +1,30 @@
+# Unreal Engine GitIgnore
+
+# Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/Android*
+Build/IOS*
+Build/WindowsNoEditor/
+
+# User-specific files
+.vscode/
+*.suo
+*.sdf
+*.user
+*.userprefs
+*.log
+*.vs/
+
+# Project files that regenerate automatically
+*.opensdf
+*.opendb
+
+# Ignore cache
+*.pdb
+
+# Plugins built files
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
